@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">PsychX</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="login_here">Already a user? <u>Login here.</u></string>
+    <string name="forgot_pass"><u>Forgot Password?</u></string>
+    <string name="create_account">Create New Account</string>
+    <string name="user_profile">User Profile</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="appbar_behaviour" translatable="false">com.example.sohaibrabbani.psychx.AvatarImageBehavior</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+    <string name="checkin">Checkin</string>
+    <string name="sohaib_rabbani">Sohaib Rabbani</string>
+    <string name="_23">23</string>
+    <string name="email_given">sohaibmasood95@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+
+    <!--Strings related to shared preference-->
+    <string name="sp_first_name">FirstName</string>
+    <string name="sp_last_name">LastName</string>
+    <string name="sp_email">Email</string>
+    <string name="sp_phone">Phone</string>
+    <string name="sp_photo">Photo</string>
+    <string name="sp_id">ID</string>
+    <string name="sp_gender">Gender</string>
+    <string name="sp_dob">DOB</string>
+    <string name="sp_image">Image</string>
+    <string name="sp_valid">Valid</string>
+    <string name="sp_logged_in">LoggedIn</string>
+    <string name="sp_hobby">hobby</string>
+    <string name="sp_user_hobby">user_hobby</string>
+    <string name="sp_loaded">loaded</string>
+    <string name="sp_suggestion_emails">suggestion_emails</string>
+
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="sync_account_type">com.example.sohaibrabbani.psychx.update</string>
+    <string name="content_authority_chat">com.example.sohaibrabbani.psychx.chat</string>
+    <string name="content_authority_profile">com.example.sohaibrabbani.psychx.editprofile</string>
+
+    //Spinner for Age
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="gender_prompt">Choose your gender</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
